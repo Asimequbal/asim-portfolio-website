@@ -387,3 +387,55 @@
     top: 65%;
     left: 10%;
 }
+.introduction{
+   width: 100vw;
+   height: 100vh;
+   /* border: 1px solid yellow; */
+   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+   position: relative;
+   background-color: #c6d9bd;
+
+}
+.asim_cv_img{
+    width: 22vw;
+    height: 65vh;
+    /* border: 2px solid yellow; */
+    background-image: url(images/asim_cv.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.info_details{
+    width: 60vw;
+    height: 60vh;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    left: 35%;
+    top: 15%;
+}
+.about_me{
+    font-size: 2rem;
+    font-family: sans-serif;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+.details_intro{
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    line-height: 2rem;
+}
+.cv_download{
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    background-color:#d53369;
+    border-radius: 40px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    font-family: sans-serif;
+}
