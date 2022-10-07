@@ -11,7 +11,8 @@
 .main_container{
     width: 100vw;
     height: 100vh;
-    background-color: #e7f1f2;
+    /* background-color: #e7f1f2; */
+    background-color: #88BDBC;
     position: relative;
     
 }
@@ -46,6 +47,13 @@
     display: inline-block;
     padding: 0 20px;
 }
+.nav_links li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
 .search_sub{
     z-index: +1;
 }
@@ -67,12 +75,23 @@
     border: none;
 
 }
-.khan_img{
+/* .khan_img{
     width: 50vw;
     height: 100vh;
     position: absolute;
     left: 45%;
     bottom: 1%;
+} */
+.asim_img{
+    width: 30vw;
+    height: 60vh;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    position: absolute;
+    left: 55%;
+    top: 25%;
+    background-image: url(images/asim_fun1.png);
+    background-position: center;
 }
 .main_banner{
     width: 30vw;
@@ -131,7 +150,7 @@
     width: 100px;
     height: 50px;
     /* border: 1px solid yellow; */
-    background-image: url(images/paypal.png);
+    background-image: url(images/html_logo.png);
     opacity: 0.1;
     background-size: contain;
     background-repeat: no-repeat;
@@ -144,7 +163,7 @@
     width: 130px;
     height: 50px;
     /* border: 1px solid yellow; */
-    background-image: url(images/google.webp);
+    background-image: url(images/css_logo1.png);
     opacity: 0.1;
     background-size: cover;
     background-position: center;
@@ -157,7 +176,7 @@
     width: 100px;
     height: 50px;
     /* border: 1px solid yellow; */
-    background-image: url(images/samsung.png);
+    background-image: url(images/bootstrap_logo1.png);
     opacity: 0.1;
     background-size: cover;
     background-position: center;
@@ -169,7 +188,7 @@
     width: 100px;
     height: 50px;
     /* border: 1px solid yellow; */
-    background-image: url(images/lenovo.png);
+    background-image: url(images/js_logo.png);
     opacity: 0.2;
     background-size: cover;
     background-position: center;
@@ -181,13 +200,17 @@
     width: 180px;
     height: 50px;
     /* border: 1px solid yellow; */
-    background-image: url(images/amazon.png);
+    background-image: url(images/react_logo1.png);
     opacity: 0.2;
     background-size: cover;
     background-position: center;
 }
 .logo_hover5:hover{
     opacity: 1.0;
+}
+.work_exprience{
+    /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
 .passion{
     width: 80vw;
@@ -240,12 +263,13 @@
     /* border: 1px solid yellow; */
     float: left;
     margin-top: 50px;
-    background-color: #ebf4f5;
-    border-radius: 10px;
-}
-.creative_design:hover{
     background-color: black;
+    border-radius: 10px;
+    position: relative;
 }
+/* .creative_design:hover{
+    background-color: black;
+} */
 .web_design{
     width: 15vw;
     height: 35vh;
@@ -255,7 +279,7 @@
     margin-left: 20px;
     background-color: #ebf4f5;
     border-radius: 10px;
-
+    position: relative;
 }
 .web_design:hover{
     background-color: black;
@@ -269,6 +293,7 @@
     margin-left: 20px;
     background-color: #ebf4f5;
     border-radius: 10px;
+    position: relative;
 }
 .brand_identity:hover{
     background-color: black;
@@ -278,3 +303,87 @@
     height: 90vh;
     border: 1px solid black;
 } */
+.red_logo1{
+    font-size: 1.5rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #d53369;
+    position: absolute;
+    top: 25%;
+    left: 10%;   
+}
+.creative_design h4{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+.creative_design p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+.red_logo2{
+    font-size: 1.5rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #d53369;
+    position: absolute;
+    top: 25%;
+    left: 10%;   
+}
+.web_design h4{
+    color: black;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+.web_design h4:hover{
+    color: white;
+}
+.web_design p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+.red_logo3{
+    font-size: 1.5rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #d53369;
+    position: absolute;
+    top: 25%;
+    left: 10%;   
+}
+.brand_identity h4{
+    color: black;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+.brand_identity h4:hover{
+    color: white;
+}
+.brand_identity p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
