@@ -428,8 +428,17 @@
     font-family: sans-serif;
     line-height: 2rem;
 }
+.name_age{
+    width: 21vw;
+    height: 30vh;
+    /*border: 1px solid red;*/
+    font-size:1.1rem;
+    font-family: sans-serif;
+    line-height: 2.5rem;
+    padding-top: 8vh;
+}
 .cv_download{
-    margin-top: 50px;
+    margin-top: 20px;
     width: 150px;
     height: 40px;
     background-color:#d53369;
@@ -438,4 +447,28 @@
     font-size: 15px;
     border: none;
     font-family: sans-serif;
+}
+.resume{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid green;
+    /*display: flex;*/
+}
+.resume h1{
+    text-align:center;
+    font-size:2.8rem;
+    font-family: sans-serif;
+    padding-top:50px;
+}
+.education{
+    width:50%;
+    height: 70vh;
+    border: 2px solid green;
+    float: left;
+}
+.experience{
+    width:50%;
+    height: 70vh;
+    border: 2px solid red;
+    float: left;
 }
