@@ -6,15 +6,18 @@
 .outer_body{
     width: 100vw;
     height: inherit;
+    position: relative;
     /* border: 5px solid red; */
 }
 .main_container{
     width: 100vw;
     height: 100vh;
-    /* background-color: #e7f1f2; */
-    background-color: #88BDBC;
-    position: relative;
-    
+    position: absolute;
+    /* background-color: #e7f1f2;
+    background-color: #88BDBC; */
+    background-image: url(images/mountain.jpg);
+    background-size: cover;
+    position: relative;    
 }
 .nav_bar{
     width: 75vw;
@@ -49,22 +52,23 @@
 }
 .nav_links li a{
     text-decoration: none;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    font-family: 'Nunito', sans-serif;
     font-size: 20px;
-    text-transform: uppercase;
-    color: black;
+    /* text-transform: uppercase; */
+    color: white;
 }
 .search_sub{
     z-index: +1;
 }
-.search_sub input{
+/*.search_sub input{
     width: 15vw;
     height: 5vh;
     border-radius: 20px 0 0 20px;
     border: 0.5px solid black;
     padding-left: 20px;
     background-color: white;
-    /* background-color:#e7f1f2 ; */
+     background-color:#e7f1f2 ; 
 }
 .search_sub button{
     width: 5vw ;
@@ -74,7 +78,7 @@
     color: white;
     border: none;
 
-}
+}*/
 /* .khan_img{
     width: 50vw;
     height: 100vh;
@@ -93,6 +97,29 @@
     background-image: url(images/asim_fun1.png);
     background-position: center;
 }
+.asim_logo{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 45%;
+    top: 30%;
+}
+.my_intro{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    font-size: 3rem;
+}
+.frontend{
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem;
+    top: 65%;
+    left: 42%;
+    color: white;
+}
 .main_banner{
     width: 30vw;
     height: 45vh;
@@ -100,21 +127,22 @@
     position: absolute;
     top: 30%;
     left: 10%;
+    color: white;
 }
 .main_banner .name{
     font-size: 1.5rem;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     /* font-weight: bolder; */
 }
 .main_banner span{
     font-size: 3.5rem;
     font-weight: bolder;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     line-height: 4.5rem;
 }
 .design_text{
     margin-top: 1.5rem;
-   font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 .main_banner .hire_me{
     margin-top: 50px;
@@ -226,7 +254,7 @@
     height: 60vh;
     /* border: 1px solid black; */
     font-size: 1.2rem;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     position: absolute;
     top: 10%;
 
@@ -242,11 +270,11 @@
 .years_of_exprience span{
     font-size: 8.5rem;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     padding-top: 10vh;
 }
 .mid_content{
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 2.2rem;
     font-weight: bold;
     /* border: 1px solid red; */
@@ -315,7 +343,7 @@
 }
 .creative_design h4{
     color: white;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 1.3rem;
     position: absolute;
     top: 55%;
@@ -323,7 +351,7 @@
 }
 .creative_design p{
     color: white;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 0.8rem;
     position: absolute;
     top: 65%;
@@ -341,7 +369,7 @@
 }
 .web_design h4{
     color: black;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 1.3rem;
     position: absolute;
     top: 55%;
@@ -352,7 +380,7 @@
 }
 .web_design p{
     color: white;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 0.8rem;
     position: absolute;
     top: 65%;
@@ -370,7 +398,7 @@
 }
 .brand_identity h4{
     color: black;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 1.3rem;
     position: absolute;
     top: 55%;
@@ -381,7 +409,7 @@
 }
 .brand_identity p{
     color: white;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 0.8rem;
     position: absolute;
     top: 65%;
@@ -389,7 +417,7 @@
 }
 .introduction{
    width: 100vw;
-   height: 100vh;
+   height: 80vh;
    /* border: 1px solid yellow; */
    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
    position: relative;
@@ -419,13 +447,13 @@
 }
 .about_me{
     font-size: 2rem;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     line-height: 2rem;
     margin-bottom: 2rem;
 }
 .details_intro{
     font-size: 1.1rem;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     line-height: 2rem;
 }
 .name_age{
@@ -433,7 +461,7 @@
     height: 30vh;
     /*border: 1px solid red;*/
     font-size:1.1rem;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
     line-height: 2.5rem;
     padding-top: 8vh;
 }
@@ -446,12 +474,15 @@
     color: white;
     font-size: 15px;
     border: none;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
+
 }
 .resume{
     width: 100vw;
-    height: 100vh;
-    border: 2px solid green;
+    height: 80vh;
+    /* border: 2px solid green; */
+    font-family: 'Nunito', sans-serif;
+    /* position: relative; */
     /*display: flex;*/
 }
 .resume h1{
@@ -460,15 +491,145 @@
     font-family: sans-serif;
     padding-top:50px;
 }
-.education{
-    width:50%;
-    height: 70vh;
-    border: 2px solid green;
-    float: left;
+.h2_p{
+    margin-left: 7.5rem;
 }
-.experience{
+.h2_p h2{
+    margin-bottom: 1.2rem;
+}
+.contact_info{
     width:50%;
     height: 70vh;
-    border: 2px solid red;
+    /* border: 2px solid green; */
     float: left;
+    /* position: absolute;
+    left: 10%; */
+}
+.contact_form{
+    width:50%;
+    height: 70vh;
+    /* border: 2px solid red; */
+    float: left;   
+}
+.contact_info h2{
+    font-size: 2.2rem;
+    /* position: absolute;
+    left: 7%; */
+}
+.details{
+    max-width: 90%;
+    line-height: 1.8rem;
+   
+}
+.location_call{
+    margin-top: 3.8rem;
+    line-height: 1.8rem;
+    margin-left: 7.5rem;
+}
+.location_call p i{
+    font-size: 1.5rem;
+    color: #f54748;
+    padding-right: 1.2rem;
+}
+.follow_me{
+    font-size: 20px;
+    margin-top: 2.2rem;
+    margin-bottom: 1.2rem;
+    margin-left: 7.5rem;
+}
+.insta_git i{
+    font-size: 1.5rem;
+    margin: .5rem;
+    text-decoration: none;
+    color: black;
+}
+.insta_git{
+    margin-left: 7.5rem;
+  
+}
+.send_messege{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    background-color:#f54748;
+    border-radius: 40px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+
+}
+#yourname{
+    width: 40vw;
+    height: 7vh;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    background: #ebf4f5;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#email_id{
+    width: 40vw;
+    height: 7vh;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    background: #ebf4f5;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+#subject{
+    width: 40vw;
+    height: 7vh;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    background: #ebf4f5;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+#url_id{
+    width: 40vw;
+    height: 7vh;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    background: #ebf4f5;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+#messegae_box{
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    background: #ebf4f5;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem; 
+    color: gray;
+}
+.all_rights{
+    width: 100vw;
+    height: 40vh;
+    border: 1px solid rgb(153, 51, 51);
+    background-color: black;
+    position: relative;
+}
+.footer{
+    width: 80vw;
+    height: 20vh;
+    border-top: 1px solid white;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Nunito', sans-serif;
 }
