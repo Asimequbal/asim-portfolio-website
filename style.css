@@ -86,9 +86,6 @@
     left: 45%;
     bottom: 1%;
 } */
-.align_all{
-    
-}
 .asim_img{
     width: 30vw;
     height: 60vh;
@@ -340,6 +337,7 @@
     height: 60px;
     border-radius: 50%;
     background: #d53369;
+    color: white;
     position: absolute;
     top: 25%;
     left: 10%;   
@@ -366,6 +364,7 @@
     height: 60px;
     border-radius: 50%;
     background: #d53369;
+    color: white;
     position: absolute;
     top: 25%;
     left: 10%;   
@@ -394,10 +393,29 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #d53369;
+    background: #b92a79;
+    color: white;
     position: absolute;
     top: 25%;
     left: 10%;   
+}
+.red_logo3 i{
+    font-size: 1.8rem;
+    position: absolute;
+    top: 20%;
+    left: 23%;
+}
+.red_logo2 i{
+    font-size: 1.8rem;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+.red_logo1 i{
+    font-size: 1.8rem;
+    position: absolute;
+    top: 25%;
+    left: 25%;
 }
 .brand_identity h4{
     color: black;
@@ -482,7 +500,7 @@
 }
 .resume{
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
     /* border: 2px solid green; */
     font-family: 'Nunito', sans-serif;
     /* position: relative; */
@@ -492,7 +510,7 @@
     text-align:center;
     font-size:2.8rem;
     font-family: sans-serif;
-    padding-top:50px;
+    padding-top:10px;
     margin-bottom: 20px;
 }
 .h2_p{
@@ -637,3 +655,278 @@
     padding-top: 20px;
     font-family: 'Nunito', sans-serif;
 }
+.my_skills{
+    width:100vw;
+    height: 120vh;
+    /* border: 2px solid black; */
+   font-family: 'Nunito', sans-serif;
+    background: #ebf4f5;
+}
+.edu_exp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.my_skills h2{
+   /*font-family: 'Nunito', sans-serif;*/
+   text-align: center;
+   padding-top: 1.2rem;
+   font-size: 1.8rem;
+}
+.experience_list{
+    margin-top:1.2rem;
+    width:30%;
+    height: 50vh;
+     /* border: 2px solid green;  */
+    float: left;
+    /* position: absolute;
+    left: 10%; */
+}
+.education_list{
+    margin-top:1.2rem;
+    width:40%;
+    height: 50vh;
+    /* border: 2px solid red; */
+    float: left;   
+}
+.edu_logo{
+    width:40vw;
+    height: 50vh;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+.edu_logo h3{
+    /* padding-left: 4.5rem; */
+    font-size:1.8rem;
+    color: #d53768;
+}
+.edu_logo h3 i{
+    padding-right:1.2rem;
+}
+.exp_logo{
+    width:40vw;
+    height: 50vh;
+    /* border: 2px solid red; */
+}
+.edu_logo ul{
+    padding-top: 20px;
+    line-height: 1.5rem;
+    list-style: none;
+}
+.heading_li{
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    text-decoration-style: none;
+}
+.logo_li{
+    color:#d53768;
+}
+.exp_logo h3{
+    padding-left: 4.5rem;
+    font-size:1.8rem;
+    color: #d53768;
+}
+.exp_logo h3 i{
+    padding-right:1.2rem;
+}
+.heading1_li{
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    /*text-decoration-style: none;*/
+}
+.exp_logo ul{
+    list-style: none;
+    padding-top: 20px;
+    line-height: 1.5rem;
+    padding-left: 4.5rem;
+}
+.logo1_li{
+    color:#d53768;
+}
+.progress_bar{
+    width: 100vw;
+    height: 70vh;
+    /* border: 2px solid red; */
+}
+.both_bar{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+}
+.left_bar{
+    width: 50vw;
+    height: 50vh;
+    /* border: 1px solid green; */
+}
+.right_bar{
+    width: 50vw;
+    height: 50vh;
+    /* border: 1px solid blue; */
+
+}
+.progress-bar1{
+    width: 35vw;
+    height: 2vh;
+    background-color: grey;
+    border-radius: 5px;
+    margin-left: 4.5rem; 
+    overflow: hidden;  
+}
+.html-css{
+    width: 70%;
+    height: 2vh;
+    /* background: #22c1c3; */
+    background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+}
+.left_bar h3{
+    padding-left: 4.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: #d53369;
+    font-weight: lighter;
+}
+.html-css span{
+    font-size: smaller;
+    color: yellow;
+    float: right;
+}
+.progress-bar2{
+    width: 35vw;
+    height: 2vh;
+    background-color: grey;
+    border-radius: 5px;
+    margin-left: 4.5rem; 
+    overflow: hidden;  
+}
+.html-css2{
+    width: 80%;
+    height: 2vh;
+    background-image: linear-gradient(-224deg, #bc0d6d, #61fded);
+}
+.progress-bar3{
+    width: 35vw;
+    height: 2vh;
+    background-color: grey;
+    border-radius: 5px;
+    margin-left: 4.5rem; 
+    overflow: hidden;  
+}
+.html-css3{
+    width: 68%;
+    height: 2vh;
+    /* background: #22c1c3; */
+    background-image: linear-gradient(-224deg, #0d8abc, #567933);
+}
+.progress-bar4{
+    width: 35vw;
+    height: 2vh;
+    background-color: grey;
+    border-radius: 5px;
+    margin-left: 4.5rem; 
+    overflow: hidden;  
+}
+.html-css4{
+    width: 75%;
+    height: 2vh;
+    /* background: #22c1c3; */
+    background-image: linear-gradient(-224deg, #bcdf0f, #61fded);
+}
+.html-css2 span{
+    font-size: smaller;
+    color: yellow;
+    float: right;
+}
+.html-css3 span{
+    font-size: smaller;
+    color: yellow;
+    float: right;
+}
+.html-css4 span{
+    font-size: smaller;
+    color: yellow;
+    float: right;
+}
+.progress_bar11{
+    width: 35vw;
+    height: 2vh;
+    background-color: grey;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 4.5rem;
+}
+.angular_js{
+    width: 70%;
+    height: 2vh;
+    background-image: linear-gradient(-224deg, #bcdf0f, #C6426E);
+}
+.angular_js span{
+    font-size: smaller;
+    color: yellow;
+    float: right; 
+}
+.right_bar h3{
+    padding-left: 4.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: #d53369;
+    font-weight: lighter;
+}
+.progress_bar12{
+    width: 35vw;
+    height: 2vh;
+    background-color: grey;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 4.5rem;
+}
+.Bootstrap{
+    width: 88%;
+    height: 2vh;
+    background-image: linear-gradient(-224deg, #642B73, #C6426E);
+}
+.Bootstrap span{
+    font-size: smaller;
+    color: yellow;
+    float: right; 
+}
+.progress_bar13{
+    width: 35vw;
+    height: 2vh;
+    background-color: grey;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 4.5rem;
+}
+.Graphic-Design{
+    width: 78%;
+    height: 2vh;
+    background-image: linear-gradient(-224deg, #333333, #dd1818);
+}
+.Graphic-Design span{
+    font-size: smaller;
+    color: yellow;
+    float: right; 
+}
+.progress_bar14{
+    width: 35vw;
+    height: 2vh;
+    background-color: grey;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 4.5rem;
+}
+.ui_ux_design{
+    width: 68%;
+    height: 2vh;
+    background-image: linear-gradient(-224deg, #00b09b, #96c93d);
+}
+.ui_ux_design span{
+    font-size: smaller;
+    color: yellow;
+    float: right; 
+}
+.both_bar{
+    font-family: 'Nunito', sans-serif;
+
+}
+
