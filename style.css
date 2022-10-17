@@ -12,12 +12,22 @@
 .main_container{
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: relative;
     /* background-color: #e7f1f2;
     background-color: #88BDBC; */
     background-image: url(images/mountain.jpg);
     background-size: cover;
     position: relative;    
+}
+.main_container::before{
+    content: "";
+    position: absolute;
+    background-image: url(mountain,jpg);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.6);
 }
 .nav_bar{
     width: 75vw;
@@ -94,7 +104,7 @@
     position: absolute;
     left: 55%;
     top: 25%;
-    background-image: url(images/asim_fun1.png);
+    /* background-image: url(images/asim_fun1.png); */
     background-position: center;
 }
 .asim_logo{
@@ -238,7 +248,9 @@
 }
 .work_exprience{
     /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
-    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
+   background: linear-gradient(90deg, #3E5151 0%, #DECBA4 100%);
+
 }
 .passion{
     width: 80vw;
@@ -440,7 +452,9 @@
    width: 100vw;
    height: 80vh;
    /* border: 1px solid yellow; */
-   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+   /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
+   background: linear-gradient(90deg, #3E5151 0%, #DECBA4 100%);
+
    position: relative;
    background-color: #c6d9bd;
 
@@ -929,4 +943,14 @@
     font-family: 'Nunito', sans-serif;
 
 }
+@media screen and (min-wdth: 320px){
+    .main_container{
+        max-width: 100%;
+    }
+    #messegae_box{
+        width: 100%;
+    }
+}
+    
+
 
