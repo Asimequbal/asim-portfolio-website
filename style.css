@@ -27,7 +27,7 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: rgba(0,0,0, 0.6);
+    background-color: rgba(0,0,0, 0.5);
 }
 .nav_bar{
     width: 75vw;
@@ -71,31 +71,6 @@
 .search_sub{
     z-index: +1;
 }
-/*.search_sub input{
-    width: 15vw;
-    height: 5vh;
-    border-radius: 20px 0 0 20px;
-    border: 0.5px solid black;
-    padding-left: 20px;
-    background-color: white;
-     background-color:#e7f1f2 ; 
-}
-.search_sub button{
-    width: 5vw ;
-    height: 5vh;
-    border-radius: 0 20px 20px 0;
-    background: #f54748;
-    color: white;
-    border: none;
-
-}*/
-/* .khan_img{
-    width: 50vw;
-    height: 100vh;
-    position: absolute;
-    left: 45%;
-    bottom: 1%;
-} */
 .asim_img{
     width: 30vw;
     height: 60vh;
@@ -290,7 +265,7 @@
     font-size: 2.2rem;
     font-weight: bold;
     /* border: 1px solid red; */
-    width: 60vw;
+    width: 80vw;
     height: 60vh;
     position: absolute;
     top: 10%;
@@ -323,6 +298,8 @@
 }
 .web_design:hover{
     background-color: black;
+    color: white;
+    transition: 2s;
 }
 .brand_identity{
     width: 15vw;
@@ -337,12 +314,9 @@
 }
 .brand_identity:hover{
     background-color: black;
+    color: white;
+    transition: 2s;
 }
-/* .intro{
-    width: 100vw;
-    height: 90vh;
-    border: 1px solid black;
-} */
 .red_logo1{
     font-size: 1.5rem;
     width: 60px;
@@ -382,18 +356,14 @@
     left: 10%;   
 }
 .web_design h4{
-    color: black;
     font-family: 'Nunito', sans-serif;
     font-size: 1.3rem;
     position: absolute;
     top: 55%;
     left: 10%;
 }
-.web_design h4:hover{
-    color: white;
-}
 .web_design p{
-    color: white;
+    color: #ebf4f5;
     font-family: 'Nunito', sans-serif;
     font-size: 0.8rem;
     position: absolute;
@@ -410,6 +380,35 @@
     position: absolute;
     top: 25%;
     left: 10%;   
+}
+.brand_identity1{
+    width: 15vw;
+    height: 35vh;
+    /* border: 1px solid yellow; */
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: #ebf4f5;
+    border-radius: 10px;
+    position: relative;
+}
+.brand_identity1:hover{
+    background-color: black;
+    color: white;
+    transition: 2s;
+}
+.brand_identity1 p{
+    font-size: .8rem;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    color: #ebf4f5;
+}
+.brand_identity1 h4{
+    font-size: 1.3rem;
+    position: absolute;
+    top: 55%;
+    left: 10%;
 }
 .red_logo3 i{
     font-size: 1.8rem;
@@ -430,18 +429,15 @@
     left: 25%;
 }
 .brand_identity h4{
-    color: black;
+    /* color: black; */
     font-family: 'Nunito', sans-serif;
     font-size: 1.3rem;
     position: absolute;
     top: 55%;
     left: 10%;
 }
-.brand_identity h4:hover{
-    color: white;
-}
 .brand_identity p{
-    color: white;
+    color: #ebf4f5;
     font-family: 'Nunito', sans-serif;
     font-size: 0.8rem;
     position: absolute;
@@ -519,6 +515,7 @@
     font-family: 'Nunito', sans-serif;
     /* position: relative; */
     /*display: flex;*/
+    margin-top: 60px;
 }
 .resume h1{
     text-align:center;
@@ -676,6 +673,8 @@
     /* border: 2px solid black; */
    font-family: 'Nunito', sans-serif;
     background: #ebf4f5;
+    padding-top: 40px;
+    /* padding-bottom: 40px; */
 }
 .edu_exp{
     display: flex;
