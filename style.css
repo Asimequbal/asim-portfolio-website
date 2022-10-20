@@ -237,6 +237,7 @@
     margin: 0 auto;
 }
 #years_of_exprience{
+    margin-top: 35px;
     width: 20vw;
     height: 60vh;
     /* border: 1px solid black; */
@@ -265,7 +266,7 @@
     font-size: 2.2rem;
     font-weight: bold;
     /* border: 1px solid red; */
-    width: 80vw;
+    width: 80%;
     height: 60vh;
     position: absolute;
     top: 10%;
@@ -273,8 +274,8 @@
     
 }
 .creative_design{
-    width: 15vw;
-    height: 35vh;
+    width: 13vw;
+    height: 30vh;
     /* border: 1px solid yellow; */
     float: left;
     margin-top: 50px;
@@ -286,12 +287,12 @@
     background-color: black;
 } */
 .web_design{
-    width: 15vw;
-    height: 35vh;
+    width: 13vw;
+    height: 30vh;
     /* border: 1px solid yellow; */
     float: left;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 25px;
     background-color: #ebf4f5;
     border-radius: 10px;
     position: relative;
@@ -302,8 +303,8 @@
     transition: 2s;
 }
 .brand_identity{
-    width: 15vw;
-    height: 35vh;
+    width: 13vw;
+    height: 30vh;
     /* border: 1px solid yellow; */
     float: left;
     margin-top: 50px;
@@ -322,7 +323,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #d53369;
+    background: #f54748;
     color: white;
     position: absolute;
     top: 25%;
@@ -349,7 +350,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #d53369;
+    background: #f54748;
     color: white;
     position: absolute;
     top: 25%;
@@ -375,19 +376,19 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #b92a79;
+    background: #f54748;
     color: white;
     position: absolute;
     top: 25%;
     left: 10%;   
 }
 .brand_identity1{
-    width: 15vw;
-    height: 35vh;
+    width: 13vw;
+    height: 30vh;
     /* border: 1px solid yellow; */
     float: left;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 25px;
     background-color: #ebf4f5;
     border-radius: 10px;
     position: relative;
@@ -419,14 +420,14 @@
 .red_logo2 i{
     font-size: 1.8rem;
     position: absolute;
-    top: 20%;
-    left: 35%;
+    top: 25%;
+    left: 25%;
 }
 .red_logo1 i{
     font-size: 1.8rem;
     position: absolute;
     top: 25%;
-    left: 25%;
+    left: 28%;
 }
 .brand_identity h4{
     /* color: black; */
@@ -500,13 +501,17 @@
     margin-top: 20px;
     width: 150px;
     height: 40px;
-    background-color:#d53369;
+    background-color:#f54748;
     border-radius: 40px;
     color: white;
     font-size: 15px;
     border: none;
     font-family: 'Nunito', sans-serif;
 
+}
+.cv_download a{
+    text-decoration: none;
+    color: white;
 }
 .resume{
     width: 100vw;
@@ -656,7 +661,7 @@
 }
 .footer{
     width: 80vw;
-    height: 20vh;
+    height: 12vh;
     border-top: 1px solid white;
     color: white;
     position: absolute;
@@ -712,7 +717,7 @@
 .edu_logo h3{
     /* padding-left: 4.5rem; */
     font-size:1.8rem;
-    color: #d53768;
+    color: #f54748;
 }
 .edu_logo h3 i{
     padding-right:1.2rem;
@@ -733,12 +738,12 @@
     text-decoration-style: none;
 }
 .logo_li{
-    color:#d53768;
+    color:#f54748;
 }
 .exp_logo h3{
     padding-left: 4.5rem;
     font-size:1.8rem;
-    color: #d53768;
+    color: #f54748;
 }
 .exp_logo h3 i{
     padding-right:1.2rem;
@@ -755,7 +760,7 @@
     padding-left: 4.5rem;
 }
 .logo1_li{
-    color:#d53768;
+    color:#f54748;
 }
 .progress_bar{
     width: 100vw;
@@ -796,7 +801,7 @@
     padding-left: 4.5rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    color: #d53369;
+    color: #f54748;
     font-weight: lighter;
 }
 .html-css span{
@@ -970,7 +975,7 @@
     /* border: 2px solid red; */
     margin: 0 auto;
     position: relative;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 @media screen and (min-width: 320px) and (max-width: 520px){
     .main_container{
