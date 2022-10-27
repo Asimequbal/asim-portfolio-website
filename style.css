@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 .outer_body{
     width: 100%;
     height: inherit;
@@ -10,7 +13,7 @@
     /* border: 5px solid red; */
 }
 .main_container{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: relative;
     /* background-color: #e7f1f2;
@@ -30,11 +33,11 @@
     background-color: rgba(0,0,0, 0.5);
 }
 .nav_bar{
-    width: 75vw;
+    width: 100%;
     height: 10vh;
     /* border: 2px solid red; */
-    position: absolute;
-    left: 10%;
+    position: sticky;
+    /* left: 10%; */
 }
 #logo{
     width: 60px;
@@ -46,6 +49,7 @@
     padding-bottom: 10px;
     text-align: center;
     font-family: 'Roboto Slab', serif;
+    margin-left: 10vw;
 }   
 .nav_bar{
     display: flex;
@@ -55,6 +59,7 @@
 }
 .nav_links{
     list-style: none;
+    margin-right: 100px;
 }
 .nav_links li{
     display: inline-block;
@@ -67,6 +72,7 @@
     font-size: 20px;
     /* text-transform: uppercase; */
     color: white;
+    /* margin-right: 40px; */
 }
 .search_sub{
     z-index: +1;
@@ -220,12 +226,13 @@
 }
 .logo_hover5:hover{
     opacity: 1.0;
+   
 }
 .work_exprience{
     /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
     /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
    background: linear-gradient(90deg, #3E5151 0%, #DECBA4 100%);
-
+   width: 100%;
 }
 .passion{
     width: 80vw;
@@ -446,7 +453,7 @@
     left: 10%;
 }
 .introduction{
-   width: 100vw;
+   width: 100%;
    height: 80vh;
    /* border: 1px solid yellow; */
    /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
@@ -514,13 +521,14 @@
     color: white;
 }
 .resume{
-    width: 100vw;
+    width: 100%;
     height: 90vh;
     /* border: 2px solid green; */
     font-family: 'Nunito', sans-serif;
     /* position: relative; */
     /*display: flex;*/
     margin-top: 60px;
+    background-color: #ff0e0e;
 }
 .resume h1{
     text-align:center;
@@ -653,14 +661,14 @@
     color: gray;
 }
 .all_rights{
-    width: 100vw;
+    width: 100%;
     height: 40vh;
     border: 1px solid rgb(153, 51, 51);
     background-color: black;
     position: relative;
 }
 .footer{
-    width: 80vw;
+    width: 80%;
     height: 12vh;
     border-top: 1px solid white;
     color: white;
@@ -673,7 +681,7 @@
     margin-top: 20px;
 }
 .my_skills{
-    width:100vw;
+    width:100%;
     height: 120vh;
     /* border: 2px solid black; */
    font-family: 'Nunito', sans-serif;
@@ -763,22 +771,22 @@
     color:#f54748;
 }
 .progress_bar{
-    width: 100vw;
+    width: 100%;
     height: 70vh;
     /* border: 2px solid red; */
 }
 .both_bar{
-    width: 100vw;
+    width: 100%;
     height: 60vh;
     display: flex;
 }
 .left_bar{
-    width: 50vw;
+    width: 50%;
     height: 50vh;
     /* border: 1px solid green; */
 }
 .right_bar{
-    width: 50vw;
+    width: 50%;
     height: 50vh;
     /* border: 1px solid blue; */
 
@@ -977,25 +985,86 @@
     position: relative;
     margin-top: 40px;
 }
-@media screen and (min-width: 320px) and (max-width: 520px){
-    .main_container{
-        width:100%;
-        height: 100vh;
-    }
-    .nav_bar{
-        width:100%;
-        height: 100px;
-    }
-    .my_intro{
-        font-size:20px;
-    }
-    .frontend{
-        font-size:20px;
-    }
-    .main_container img{
-        display: flex;
-    }
-}
+/*@media screen and (min-width: 323px) and (max-width: 662px){
+            .nav_bar{
+                width: 100%;
+                flex-direction: column;
+                height: auto;
+
+            }
+            .nav_links li {
+                margin: 0 auto;
+                display: inline;
+                margin: 0;
+                padding: 0;
+
+            }
+            .nav_links{
+                margin: 0 auto;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            .nav_links li a{
+                font-size: 1.0rem;
+                margin: 10px;
+            }
+            .logo_intro img{
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                left: 41%;
+                top: 30%;
+            }
+            .my_intro{
+                font-size: 1.5rem;
+                position: absolute;
+                top: 45%;
+                left: 21%;
+            }
+            .frontend{
+                font-size: 1.3rem;
+                position: absolute;
+                top: 51%;
+                left: 28%;
+            }
+            .passion{
+                width: 100%;
+            }
+            #years_of_exprience span{
+                font-size: 4.5rem;
+                margin-top: 20px;
+            }
+            #years_of_exprience{
+                font-size: 0.9rem;
+                width: 50%;
+                /* flex-direction: column; */
+                margin-top: 20px;
+            }
+            .mid_content_text{
+                font-size: 1rem;
+                line-height: 1.5;
+                margin-left: 20px; 
+                overflow: hidden;        
+            }
+            .passion_web_design{
+                width: 100%;
+                height: 800px;
+            }
+            .creative_design{
+                width: 50%;
+                /* width: 13vw; */
+                height: 30vh;
+                margin-top: 100px;
+            }
+            .web_design{
+                width: 100%;
+                /* width: 13vw; */
+                height: 30vh;
+                margin-top: 100px;
+            }
+}*/
+
+            
+
+
     
-
-
