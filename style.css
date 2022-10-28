@@ -985,7 +985,7 @@ html{
     position: relative;
     margin-top: 40px;
 }
-/*@media screen and (min-width: 323px) and (max-width: 662px){
+@media screen and (min-width: 323px) and (max-width: 662px){
             .nav_bar{
                 width: 100%;
                 flex-direction: column;
@@ -1037,7 +1037,7 @@ html{
             #years_of_exprience{
                 font-size: 0.9rem;
                 width: 50%;
-                /* flex-direction: column; */
+                 flex-direction: column;
                 margin-top: 20px;
             }
             .mid_content_text{
@@ -1062,7 +1062,7 @@ html{
                 height: 30vh;
                 margin-top: 100px;
             }
-}*/
+}
 
             
 
